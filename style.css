@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+position: relative;
+width: 100%;
+height: 100%;
+background: white;
+
+}
+
+nav {
+display:flex;
+width: 100%;
+/* margin: auto; */
+padding: 30px 25px;
+padding-right: 30px;
+align-items: center;
+justify-content: space-between;
+
+}
+
+nav ul li{
+display:inline-block;
+list-style: none;
+margin: 10px 15px;
+margin-top: -70px;
+margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav ul a:hover{
+    color: blue;
+
+}
+
+ .details {
+    margin-left: 8%;
+    margin-top: 4%;
+
+}
+
+.details h1 {
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.header {
+    background: black;
+    height: 200px;
+}
+
+.header ul{
+    padding: 50px;
+}
+span{
+    color:blue;
+
+}
+
+.details p{
+    color: black;
+    line-height: 22px;
+    font-size: 50px;
+}
+
+.details a{
+    background:black ;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+
+.logo{
+    height: 200px;
+}
+
+.inner {
+    display: flex;
+}
+.container4{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    width:50%;
+    box-sizing: border-box;
+
+ 
+}
+.contact-wrap {
+    /* background-color: purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.wrap {
+    /* background-color: red; */
+    height: 50%;
+
+}
+
+.wrap2 {
+    /* background-color: blue; */
+    height: 50%;
+    margin-left: 0;
+
+}
+
+.info {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-wrap input {
+    all: unset;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.reach-us {
+    background-color: green;
+    color: white;
+    width: 50%;
+    text-align: center;
+   
+}
+.reach-us h2  {
+    color: #000;
+}
+
+.wrap, .wrap2{
+   margin: 5px;
+}
+
+.socials i {
+    margin-right: 10px;
+}
+.socials {
+    margin: 10px;
+    padding: 10px;
+}
+
+.fa-twitter {
+    color: rgb(0, 68, 255);
+    margin-left: -10px;
+}
+
+
+.fa-facebook-square {
+    color: blue;
+    margin-left: -10px;
+}
+
+
+
+
+
+
+/* PORTFOLIO STYLING
+This is the portfolio styling section */
+
+
+.container2 {
+    background-color: gold;
+    text-align: center;
+}
+
+.container2-wrap {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-wrap, .c-wrap2 {
+    margin: 20px;
+    padding: 10px;
+}
+
+.c-wrap a, .c-wrap2 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    background: green;
+    color: white ;
+    padding: 10px 5px 10px 5px;
+    text-transform: lowercase;
+}
+
+.c-wrap2 img {
+    width: 200px;
+    height: 125px;
+}
